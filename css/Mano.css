@@ -1,0 +1,125 @@
+.carousel-inner > .item > img {
+    margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+.mano-button:link {
+	background-color: white;
+	border: none;
+	color: #333;
+}
+
+.mano-button:visited {
+	background-color: white;
+	color: #333;
+	border: none;
+}
+
+.mano-button:focus {
+	background-color: white;
+	color: #333;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	border-color: #333;
+}
+
+.mano-button:hover {
+	background-color: white;
+	color: #333;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	border-color: #333;
+}
+
+.mano-button:active {
+	background-color: white;
+	color: #333;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	border-color: #333;
+}
+
+
+p.mano-collapse {
+	color: #000;
+}
+
+.mano-p {
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+}
+
+a.mano-a:link {
+	text-decoration: none;
+}
+
+a.mano-a:visited {
+	text-decoration: none;
+}
+
+a.mano-a:hover {
+	text-decoration: none;
+}
+
+a.mano-a:active {
+	text-decoration: none;
+}
+
+#Pictures {
+	padding-top: 30px;
+}
+
+#Contacts {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+@media only screen and (min-width : 260px){
+	.mano-h1 {
+		font-size: 20px;
+	}
+	.mano-caption {
+	
+	}
+}
+ 
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+	.mano-h1 {
+		font-size: 25px;
+	}
+	.mano-caption {
+		font-size: 20px;
+	}
+}
+ 
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+	.mano-h1 {
+		font-size: 30px;
+	}
+	.mano-caption {
+		font-size: 25px;
+	}
+}
+ 
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px){
+	.mano-h1 {
+		font-size: 35px;
+	}
+	.mano-caption {
+		font-size: 25px;
+	}
+}
+ 
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px){
+	.mano-h1 {
+		font-size: 40px;
+	}
+	.mano-caption {
+		font-size: 30px;
+	}
+}

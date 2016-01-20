@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="author" content="Karolis Pockevicius"/>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Užrašų knygelė</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/starter-template.css" rel="stylesheet">
+	<link href="css/Mano.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Užrašofkė</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Pradžia</a></li>
+            <li><a href="#Pictures">Paveikslėliai</a></li>
+            <li><a href="#Contacts">Kontaktai</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+		<div class="starter-template row">
+			<a class="btn btn-primary mano-button" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+			<h1 class="mano-h1">Programėlė - užrašų knygutė</h1></a>
+		</div>
+		<div class="collapse" id="collapseExample">
+		  <div class="well">
+				<div class="row">
+					<p class="lead col-md-6">Patogi užrašų knygutė jūsų telefone ar planšetiniame kompiuteryje! Ar teko kada iš parduotuvės gryžti be vieno ar kelių ir dar esminių produktų numatytam patiekalui gaminti? O galbūt išvykote į kelionę ar iškylauti ir pamiršote jums svarbų daiktą? Turite darbų, kurių tiesiog negalite užmiršti? Be viso to, savaime suprantama pas kiekvieną yra progų, kurių negalima praleisti. Tuomet jums reikia užrašofkės, kad suplanuotų įvykių daugiau nepamirštumėt.</p>
+					<p class="lead col-md-6">Programėlė - užrašų knygutė, skirta užsirašyti priminimams arba kažkokiam tekstui susiejant jį su tam tikra kalendoriaus data.</p>
+				</div>
+		  </div>
+		</div>
+		<div class="row" id="Pictures">
+			<div class="col-lg-12">
+                <h1 class="page-header">Galerija</h1>
+            </div>
+		</div>
+		
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="5"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="6"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="7"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+			<div class="item active">
+			  <img src="pics/LoadingScreen.jpg" alt="Krovimo langas">
+			</div>
+			<div class="item">
+			  <img src="pics/HomeScreen.jpg" alt="Namų langas">
+			</div>
+			<div class="item">
+			  <img src="pics/CreateScreen.jpg" alt="Sukūrimo langas">
+			</div>
+			<div class="item">
+			  <img src="pics/ViewScreen.jpg" alt="Peržiūros langas">
+			</div>
+			<div class="item">
+			  <img src="pics/NoteList.jpg" alt="Užrašų langas">
+			</div>
+			<div class="item">
+			  <img src="pics/CreateEvent.jpg" alt="Sukurti įvykį">
+			</div>
+			<div class="item">
+			  <img src="pics/ViewEvent.jpg" alt="Įvykio peržiūra">
+			</div>
+			<div class="item">
+			  <img src="pics/EventList.jpg" alt="Įvykių sąrašas">
+			</div>
+		  </div>
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+		</div>
+		
+       
+		<div class="starter-template" id="Contacts">
+			<h1 class="mano-h1">Kontaktai</h1>
+			<p class="lead">Vardas: Karolis Pockvevičius.<br/>Email'as: karolispock@gmail.com<br/>Telefono nr.:+37062321997</p>
+		</div>
+    </div><!-- /.container -->
+
+
+	
+	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
